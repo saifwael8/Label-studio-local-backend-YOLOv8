@@ -3,22 +3,23 @@ This repo contains the steps for initializing and using label studio's backend f
 
 # Steps to use ML-backend locally on label-studio:
 Installing the backend ML repo
-	1) ```git clone https://github.com/HumanSignal/label-studio-ml-backend.git```
-	2) ```cd label-studio-ml-backend/```
-	3)pip install -e .
+-  ```git clone https://github.com/HumanSignal/label-studio-ml-backend.git```
+-   ```cd label-studio-ml-backend/```
+-   ```pip install -e .```
 
-Create an empty ML backend
-	1)label-studio-ml create my_ml_backend
+  
+# Create an empty ML backend
+-   ```label-studio-ml create my_ml_backend ```
 	
-Implementing prediction logic
-	1)copy attached model.py and _wsgi.py into their corresponding py files in my_ml_backend directory
+# Implementing prediction logic
+-  ```copy attached model.py and _wsgi.py into their corresponding py files in my_ml_backend directory```
 
-Running the ML-backend
-	1)pip install -r my_ml_backend
-	2)label-studio-ml start my_ml_backend
+# Running the ML-backend
+-  ```pip install -r my_ml_backend```
+-  ```label-studio-ml start my_ml_backend```
 
 
-Note:
+# Note:
  - You'll need to copy your LS-API key found in (Profile (in top right corner) --> Account and Settings --> Access token)
 in LS API key variable at the top of the script 
 
