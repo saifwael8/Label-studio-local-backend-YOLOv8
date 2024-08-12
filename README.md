@@ -1,5 +1,5 @@
 # Label-studio-local-backend-YOLOv8
-This repo contains the steps for initializing and using label studio's backend feature to automate annotations using YOLOv8 (detection and segmentation)
+This repo contains the steps for initializing and using label studio's backend feature to automate annotations using YOLOv8 (detection and segmentation) locally without using docker
 
 # Steps to use ML-backend locally on label-studio:
 Installing the backend ML repo
