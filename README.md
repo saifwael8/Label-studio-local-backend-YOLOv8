@@ -12,7 +12,7 @@ Installing the backend ML repo
 -   ```label-studio-ml create my_ml_backend ```
 	
 # Implementing prediction logic
--  ```copy attached model.py and _wsgi.py into their corresponding py files in my_ml_backend directory```
+- copy attached model.py and _wsgi.py into their corresponding py files in my_ml_backend directory
 
 # Running the ML-backend
 -  ```pip install -r my_ml_backend```
