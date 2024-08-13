@@ -25,7 +25,8 @@ in LS API key variable at the top of the script
 
 - Attached below is model.py (for YOLOv8 segmentation) and model_det.py (for YOLOv8 detection), orginally from (https://github.com/seblful/label-studio-yolov8-backend) directory
 
-- You'll need to change the model path to your model path (Found in model.py & model_det)
+- You'll need to change the model path to your model path (Found in model.py & model_det), and also change the labels in the labels list to your desired labels (make sure they match the labels on Label-Studio)
+
 
 Helpful links:
 - https://labelstud.io/guide/ml_create.html#Run-without-Docker (initialization steps)
